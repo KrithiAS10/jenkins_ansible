@@ -1,6 +1,5 @@
 - name: Deploy maven artifact
   hosts: web
-  become: true
   tasks:
     - name: Create deployment directory
       file:
